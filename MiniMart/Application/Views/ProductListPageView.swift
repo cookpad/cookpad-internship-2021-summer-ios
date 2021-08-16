@@ -2,7 +2,6 @@ import SwiftUI
 
 struct ProductListPageView: View {
     @State var products: [FetchProductsQuery.Data.Product] = []
-    @State var isCartViewPresented: Bool = false
 
     var body: some View {
         List(products, id: \.id) { product in
@@ -37,11 +36,6 @@ struct ProductListPageView: View {
         .toolbar {
             ToolbarItemGroup(placement: .navigationBarTrailing) {
                 CartButton()
-            }
-        }
-        .sheet(isPresented: $isCartViewPresented) {
-            NavigationView {
-                CartPageView()
             }
         }
     }

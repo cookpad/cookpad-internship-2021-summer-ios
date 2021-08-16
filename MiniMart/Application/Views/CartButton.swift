@@ -17,7 +17,8 @@ struct CartButton: View {
         }
         .sheet(isPresented: $isCartViewPresented) {
             NavigationView {
-                CartPageView()
+                // CartPageViewで注文完了後に画面を閉じるため
+                CartPageView(isCartViewPresented: $isCartViewPresented)
             }
         }
     }
