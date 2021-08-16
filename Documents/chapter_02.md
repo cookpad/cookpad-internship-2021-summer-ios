@@ -132,7 +132,8 @@ query fetchProducts {
 
 最後に[公式のチュートリアル](https://www.apollographql.com/docs/ios/initialization/#basic-client-creation)に従い、ApolloClientのインスタンスを共有するためのSingletonのクラスを作成します。
 
-`DataSources`以下に`Network.swift`を新規に作成し、以下の内容をコピーしてください。
+`DataSources`グループを選択 -> 右クリックし、「New File...」を選択し、`Network.swift`を新規に作成します。
+以下の内容をコピーしてください。
 その際、以下の内容を伝えられる内容に合わせて修正してください。
 - `[API Endpoint]`は、APIエンドポイントのURLに置換してください。
 - `[Your id]`には、ログインユーザー名を指定してください。
