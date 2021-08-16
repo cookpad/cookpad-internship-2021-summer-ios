@@ -118,8 +118,6 @@ struct CartPageView_Previews: PreviewProvider {
 - ナビゲーションバーに配置したカートボタンが入り口
 - 「モーダル表示」で画面を表示する
 
-<<あとでできあがったトップ画面のスクショを貼る>>
-
 ### ナビゲーションバーにボタンを置く
 
 商品一覧画面のナビゲーションバーにカートボタンを置きます。
@@ -130,7 +128,13 @@ struct CartPageView_Previews: PreviewProvider {
 `ProductListPageView.swift`の`body`を以下のように変更してください。
 
 ```diff
-
+        List {
+            // 中略
+        }
++       .listStyle(PlainListStyle())
+        .onAppear {
+            // 中略
+        }
         .navigationTitle("MiniMart")
 +       .toolbar {
 +           ToolbarItemGroup(placement: .navigationBarTrailing) {
@@ -148,6 +152,7 @@ struct CartPageView_Previews: PreviewProvider {
 
 コードの説明をします。
 
+- `.listStyle(PlainListStyle())` Listのデザインを指定するModifierです。toolbarを表示すると何故かスタイルが変わってしまうので、PlainListStyleを指定しています。
 - `.toolbar`はナビゲーションバー、またはツールバーを表示するためのモディファイア。クロージャの中には`ToolbarContent`に準拠している`View`を置く必要があります。
   - https://developer.apple.com/documentation/swiftui/view/toolbar(content:)-5w0tj
 - `ToolbarItemGroup`は`ToolbarContent`に準拠した`View`。第一引数の`placement`で、コンテンツを置く位置を指定する。今回はナビゲーションバー（ヘッダー）の右側に置きたいので、`.navigationBarTrailing`を指定する
