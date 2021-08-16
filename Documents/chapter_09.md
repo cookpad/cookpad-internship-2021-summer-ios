@@ -11,7 +11,7 @@ APIのドキュメントは、GraphQLのplaygroundを参照してください。
 
 APIは以下です。
 
-```
+```graphql
 
 type Query {
   # ID で注文を引く
