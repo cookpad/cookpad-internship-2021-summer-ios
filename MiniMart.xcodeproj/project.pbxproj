@@ -11,6 +11,8 @@
 		1113F95026CA63DB00855F37 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1113F94F26CA63DB00855F37 /* Network.swift */; };
 		1113F95226CA64D800855F37 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1113F95126CA64D800855F37 /* API.swift */; };
 		1113F95426CA657C00855F37 /* ProductListPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1113F95326CA657C00855F37 /* ProductListPageView.swift */; };
+		1113F95A26CA6EB800855F37 /* CartPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1113F95926CA6EB800855F37 /* CartPageView.swift */; };
+		1113F95C26CA703500855F37 /* ProductDetailPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1113F95B26CA703500855F37 /* ProductDetailPageView.swift */; };
 		1152031526A66A7500555FBE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1152031426A66A7500555FBE /* ContentView.swift */; };
 		11A47030269404B000E9C8AD /* ProcessInfo+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A4702F269404B000E9C8AD /* ProcessInfo+Extension.swift */; };
 		11FD9C632692A79600BBCD33 /* MiniMartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FD9C622692A79600BBCD33 /* MiniMartApp.swift */; };
@@ -43,6 +45,8 @@
 		1113F94F26CA63DB00855F37 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		1113F95126CA64D800855F37 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		1113F95326CA657C00855F37 /* ProductListPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListPageView.swift; sourceTree = "<group>"; };
+		1113F95926CA6EB800855F37 /* CartPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartPageView.swift; sourceTree = "<group>"; };
+		1113F95B26CA703500855F37 /* ProductDetailPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailPageView.swift; sourceTree = "<group>"; };
 		1152031426A66A7500555FBE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		11A4702F269404B000E9C8AD /* ProcessInfo+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProcessInfo+Extension.swift"; sourceTree = "<group>"; };
 		11FD9C5F2692A79600BBCD33 /* MiniMart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniMart.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,6 +103,8 @@
 			isa = PBXGroup;
 			children = (
 				1113F95326CA657C00855F37 /* ProductListPageView.swift */,
+				1113F95926CA6EB800855F37 /* CartPageView.swift */,
+				1113F95B26CA703500855F37 /* ProductDetailPageView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -329,7 +335,9 @@
 			files = (
 				11FD9CA62692B3A700BBCD33 /* UserDefaults+Codable.swift in Sources */,
 				1152031526A66A7500555FBE /* ContentView.swift in Sources */,
+				1113F95C26CA703500855F37 /* ProductDetailPageView.swift in Sources */,
 				1113F95426CA657C00855F37 /* ProductListPageView.swift in Sources */,
+				1113F95A26CA6EB800855F37 /* CartPageView.swift in Sources */,
 				1113F95026CA63DB00855F37 /* Network.swift in Sources */,
 				11FD9CB72692C4BE00BBCD33 /* RemoteImage.swift in Sources */,
 				11A47030269404B000E9C8AD /* ProcessInfo+Extension.swift in Sources */,
