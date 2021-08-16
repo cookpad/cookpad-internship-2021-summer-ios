@@ -4,7 +4,7 @@ import SwiftUI
 struct MiniMartApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ProductListPageView()
         }
     }
 }
