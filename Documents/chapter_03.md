@@ -199,7 +199,7 @@ struct ProductListPageView: View {
 これは`\FetchProductsQuery.Data.Product.id`を省略したもので、`KeyPath`と呼ばれる型の値です。
 この例は「`FetchProductsQuery.Data.Product`の`id`プロパティへのキー」という意味です。
 
-KeyPathは任意の型のプロパティに添え字アクセスをするための仕組みです。
+KeyPathは任意の型のプロパティに添え字アクセスをするための仕組みです。
 `KeyPath`を使うとまるで辞書型のように変数のプロパティへアクセスできます。
 
 以下の例では`keyPathForID`というKeyPath型の変数を使って、`Product`型の`idプロパティの値を取得しています
