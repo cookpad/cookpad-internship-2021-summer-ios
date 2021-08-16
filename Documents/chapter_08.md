@@ -17,6 +17,7 @@
 ## ヒント
 
 - 繰り返し要素と固定要素が同居しています。どういう構造で作れるでしょうか
+  - VStackでListとその他の要素を組み合わせるとどうなるでしょうか？試してみましょう
   - Listは配列を渡す以外の書き方もできます。公式サイトで確認してみましょう
     - [List](https://developer.apple.com/documentation/swiftui/list)
   - Listでなく、Chapter7で紹介した方法を使っても良いでしょう
