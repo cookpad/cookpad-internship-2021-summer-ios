@@ -6,6 +6,7 @@ Xcodeでのビルドが動いたところで、次にMiniMartの開発に必要�
 
 - Swift Package Managerというツールを使って`apollo-ios`を導入
 - 必要なファイルを生成するために、npmモジュール`apollo-tooling`の導入
+- Network.swiftをXcodeに追加する
 
 を、行います。
 
