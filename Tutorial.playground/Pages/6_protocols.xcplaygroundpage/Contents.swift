@@ -44,23 +44,3 @@ myPet = Dog(name: "ポチ")
 //: > Try1: `Dog` 型から、 `name` プロパティと `bark` メソッドを削除して、コンパイルエラーになることを確認しましょう。
 
 //: [Next](@next)
-
-
-var maxIndex: Int = 0
-var boobieIndex: Int = 0
-var scores: [Int] = [1, 123, 12345, 12, 1234, 123456]
-
-let result = scores.enumerated().reduce((maxIndex, boobieIndex)) { pair, keyValue in
-    let score = keyValue.element
-    let index = keyValue.offset
-    let (maxIndex, _) = pair
-    let max = scores[maxIndex]
-    if score > max {
-        return (index, maxIndex)
-    } else {
-        return pair
-    }
-}
-
-print(result.1 + 1)
-
