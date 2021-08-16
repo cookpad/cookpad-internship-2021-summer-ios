@@ -36,11 +36,7 @@ struct ProductListPageView: View {
         .navigationTitle("MiniMart")
         .toolbar {
             ToolbarItemGroup(placement: .navigationBarTrailing) {
-                Button(action: {
-                    self.isCartViewPresented = true
-                }) {
-                    Image(systemName: "folder")
-                }
+                CartButton()
             }
         }
         .sheet(isPresented: $isCartViewPresented) {
