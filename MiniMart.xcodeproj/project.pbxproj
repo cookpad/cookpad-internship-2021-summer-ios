@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1113F94E26CA623E00855F37 /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = 1113F94D26CA623E00855F37 /* Apollo */; };
 		1152031526A66A7500555FBE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1152031426A66A7500555FBE /* ContentView.swift */; };
 		11A47030269404B000E9C8AD /* ProcessInfo+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A4702F269404B000E9C8AD /* ProcessInfo+Extension.swift */; };
 		11FD9C632692A79600BBCD33 /* MiniMartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FD9C622692A79600BBCD33 /* MiniMartApp.swift */; };
@@ -59,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1113F94E26CA623E00855F37 /* Apollo in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +199,9 @@
 			dependencies = (
 			);
 			name = MiniMart;
+			packageProductDependencies = (
+				1113F94D26CA623E00855F37 /* Apollo */,
+			);
 			productName = MiniMart;
 			productReference = 11FD9C5F2692A79600BBCD33 /* MiniMart.app */;
 			productType = "com.apple.product-type.application";
@@ -268,6 +273,9 @@
 				Base,
 			);
 			mainGroup = 11FD9C562692A79600BBCD33;
+			packageReferences = (
+				1113F94C26CA623E00855F37 /* XCRemoteSwiftPackageReference "apollo-ios" */,
+			);
 			productRefGroup = 11FD9C602692A79600BBCD33 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -634,6 +642,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1113F94C26CA623E00855F37 /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.46.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1113F94D26CA623E00855F37 /* Apollo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1113F94C26CA623E00855F37 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = Apollo;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 11FD9C572692A79600BBCD33 /* Project object */;
 }
