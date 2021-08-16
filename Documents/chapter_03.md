@@ -156,14 +156,14 @@ struct ProductListPageView_Previews: PreviewProvider {
 +           name: "商品 \(1)",
 +           price: 100,
 +           summary: "おいしい食材 \(1)",
-+           imageUrl: "https://image.mini-mart.com/dummy/1"
++           imageUrl: "https://image.cookpad-mart.com/dummy/1"
 +       ),
 +       FetchProductsQuery.Data.Product(
 +           id: UUID().uuidString,
 +           name: "商品 \(2)",
 +           price: 200,
 +           summary: "おいしい食材 \(2)",
-+           imageUrl: "https://image.mini-mart.com/dummy/2"
++           imageUrl: "https://image.cookpad-mart.com/dummy/2"
 +       ),
 +   ]
     
