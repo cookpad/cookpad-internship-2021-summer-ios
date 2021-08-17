@@ -25,7 +25,7 @@ git checkout ch7-initial
 
 ## ヒント
 
-- カートに追加した商品は様々な画面で共有されます。Stateではなく、ObservableObjectに準拠したクラスを作りEnvironmentObjectを使ってアプリ全体で共有するのが良いでしょう。
+- カートに追加した商品は様々な画面で共有されます。Stateではなく、ObservableObjectに準拠したクラスを作りEnvironmentObjectを使ってアプリ全体で共有するのが良いでしょう。
   - EnvironmentObjectはchapter_5で紹介しています。
   - これは少しややこしいのでコード例を後述します
 - 角丸ボタンはTextに背景色をつけて、境界を丸くすることで実現できます
