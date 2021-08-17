@@ -147,7 +147,7 @@ struct ProductListPageView: View {
 このままでは何も表示されないので、
 Previewの実装にはダミーの値を渡しましょう
 
-```swift
+```diff
 
 struct ProductListPageView_Previews: PreviewProvider {
 +   static let products = [
