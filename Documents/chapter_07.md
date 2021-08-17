@@ -33,6 +33,7 @@ git checkout ch7-initial
   - 文字色は`.foregroundColor` modifierで変えることができます
   - Viewの角は`.cornerRadius` modifierで丸くすることができます
 - 要素が画面内に収まらない場合、[ScrollView](https://developer.apple.com/documentation/swiftui/scrollview)を使うと良いでしょう
+- 画面例ではナビゲーションバーが小さくなっています。ナビゲーションバーはタイトルを大きく表示するのか小さく表示するのかの２モードがあり、`.navigationBarTitleDisplayMode`でスタイルを調整できます。
 
 ## カートの状態をアプリ全体で共有する
 
