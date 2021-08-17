@@ -96,3 +96,5 @@ MiniMart/DataSources/Network.swift
 
 
 node_modules
+.DS_Store
+MiniMart/.DS_Store
