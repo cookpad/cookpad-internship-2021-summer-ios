@@ -13,7 +13,7 @@
 
 ## 基礎知識
 
-スライド
+[スライド](https://www.slideshare.net/masaichisanjp/cookpad-summer-internship-2021-mobile-app)
 
 ## 課題
 
